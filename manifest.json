@@ -1,0 +1,14 @@
+{
+	"name": "Clickthrough Maps for Google+™",
+	"version": "1",
+	"manifest_version": 2,
+	"description": "Making Checkin Maps on Google+ dynamic!",
+	"content_scripts": [
+    {
+      "matches": ["*://plus.google.com/*"],
+      "css": ["clickthrough.css"],
+      "js": ["jquery-1.8.1.min.js", "clickthrough.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
