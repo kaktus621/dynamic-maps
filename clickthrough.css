@@ -1,0 +1,14 @@
+.cmMapsFrame {
+  border: none;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 497px;
+  z-index: 1;
+}
+
+.cmMapsFrameMap {
+  height: 100%;
+  width: 100%;
+}

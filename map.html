@@ -1,10 +1,50 @@
 <html>
   <head>
     <title>Google Maps Sandbox</title>
+    <link rel="stylesheet" href="clickthrough.css"></link>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVWBGxTqc_znVAiasm1FGnKcZprMLIEyE&amp;sensor=false"></script>
+    <script>
+      function initialize() {
+        // Extract location to show from URL (ugly hack because we can't use
+        // postMessage to pass messages between content script and iframe)
+        var rawParameters = window.location.hash.substring(1).split('&');
+        var parameters = {};
+
+        for (var i in rawParameters) {
+          var param = rawParameters[i].split('=');
+          parameters[param[0]] = param[1];
+        }
+
+        var location = new google.maps.LatLng(
+            parseFloat(parameters.latitude),
+            parseFloat(parameters.longitude));
+
+        var options = {
+          zoom: parameters.zoom ? parseInt(parameters.zoom) : 8,
+          center: location,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById('map'), options);
+
+        // Place a marker on the center location (using the G+ maps pin)
+        new google.maps.Marker({
+          map: map,
+          position: location,
+          icon: new google.maps.MarkerImage(
+            'https://ssl.gstatic.com/s2/oz/images/stream/location_map_pin-d5b7d4d5269c6b2b0b2c2ef921064675.png',
+            null,
+            null,
+            new google.maps.Point(8, 8)
+          ),
+          flat: true
+        });
+      }
+
+      window.onload = initialize;
+    </script>
   </head>
 
-  <body>
-    <div id="map"></div>
+  <body style="margin: 0">
+    <div class="cmMapsFrameMap" id="map"></div>
   </body>
 </html>
