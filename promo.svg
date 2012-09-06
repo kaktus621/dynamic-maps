@@ -18,7 +18,7 @@
    inkscape:export-filename="/home/martin/Git/clickthrough-maps/promo440.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="New document 14">
+   sodipodi:docname="promo.svg">
   <defs
      id="defs5443">
     <linearGradient
@@ -80,7 +80,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.3735294"
      inkscape:cx="227"
-     inkscape:cy="124.71826"
+     inkscape:cy="153.84032"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -261,41 +261,19 @@
        id="path5376-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
-       transform="matrix(4.1503073,0,0,4.1503063,188.33724,820.51745)"
+       transform="matrix(4.1503073,0,0,4.1503063,163.58349,789.21124)"
        inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
        inkscape:export-xdpi="30"
        inkscape:export-ydpi="30" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.15030622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 295.71371,907.22979 34.98571,137.22551 24.79572,-38.3823 42.11871,49.5914 32.60805,-32.2684 -46.53442,-43.47745 34.3064,-17.66267 z"
+       d="m 270.95996,875.92358 34.98571,137.22552 24.79572,-38.38231 42.11871,49.59141 32.60805,-32.26841 -46.53442,-43.47745 34.3064,-17.66267 z"
        id="path5376"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
        inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
        inkscape:export-xdpi="30"
        inkscape:export-ydpi="30" />
-    <text
-       xml:space="preserve"
-       style="font-size:19.92585945000000081px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;filter:url(#filter6189)"
-       x="289.1138"
-       y="874.93909"
-       id="text6071-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6073-8"
-         x="289.1138"
-         y="874.93909">for Google+™</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:19.92585945px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="288.82993"
-       y="874.02704"
-       id="text6071"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6073"
-         x="288.82993"
-         y="874.02704">for Google+™</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:0.37333332;stroke:none"
        id="rect6117"
@@ -305,26 +283,61 @@
        y="770.60626" />
     <text
        xml:space="preserve"
-       style="font-size:43.21295166000000165px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Ubuntu Bold;filter:url(#filter6181)"
-       x="73.361954"
-       y="823.92181"
+       style="font-size:19.92585945px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6189);font-family:Sans;-inkscape-font-specification:Sans"
+       x="313.47028"
+       y="820.33521"
+       id="text6071-6"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.89914354,0,0,0.89914354,55.2285,67.84531)"><tspan
+         sodipodi:role="line"
+         id="tspan6073-8"
+         x="364.19464"
+         y="820.33521"
+         style="text-anchor:start;text-align:start">for</tspan><tspan
+         sodipodi:role="line"
+         x="364.19464"
+         y="845.24255"
+         id="tspan6214"
+         style="text-anchor:start;text-align:start">Google+™</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.91620827px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="336.82809"
+       y="804.52423"
+       id="text6071"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6073"
+         x="336.82809"
+         y="804.52423"
+         style="text-align:start;text-anchor:start">for</tspan><tspan
+         sodipodi:role="line"
+         x="336.82809"
+         y="826.91949"
+         id="tspan6212"
+         style="text-align:start;text-anchor:start">Google+™</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.21295166px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6181);font-family:Sans;-inkscape-font-specification:Ubuntu Bold"
+       x="11.477585"
+       y="823.19379"
        id="text6063-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="73.361954"
-         y="823.92181"
+         x="11.477585"
+         y="823.19379"
          id="tspan6067-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">Dynamic Maps</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:43.21295166px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Ubuntu Bold"
-       x="73.372849"
-       y="822.11877"
+       x="11.48848"
+       y="821.39075"
        id="text6063"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="73.372849"
-         y="822.11877"
+         x="11.48848"
+         y="821.39075"
          id="tspan6067"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">Dynamic Maps</tspan></text>
   </g>
