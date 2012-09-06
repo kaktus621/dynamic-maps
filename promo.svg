@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="440"
+   height="280"
+   id="svg5441"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   inkscape:export-filename="/home/martin/Git/clickthrough-maps/promo440.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="New document 14">
+  <defs
+     id="defs5443">
+    <linearGradient
+       id="linearGradient5959">
+      <stop
+         style="stop-color:#1a950c;stop-opacity:1;"
+         offset="0"
+         id="stop5961" />
+      <stop
+         id="stop5969"
+         offset="0.6883117"
+         style="stop-color:#13ae06;stop-opacity:1;" />
+      <stop
+         style="stop-color:#0aa100;stop-opacity:1;"
+         offset="1"
+         id="stop5963" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5959"
+       id="linearGradient5989"
+       x1="0"
+       y1="912.36218"
+       x2="440"
+       y2="912.36218"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5400">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.82137245"
+         id="feGaussianBlur5402" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6181">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.5810952"
+         id="feGaussianBlur6183" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter6189">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.2714874"
+         id="feGaussianBlur6191" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3735294"
+     inkscape:cx="227"
+     inkscape:cy="124.71826"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="940"
+     inkscape:window-height="608"
+     inkscape:window-x="1"
+     inkscape:window-y="75"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5446">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-772.36218)">
+    <rect
+       style="fill:url(#linearGradient5989);fill-opacity:1.0;stroke:none"
+       id="rect5449"
+       width="440"
+       height="280"
+       x="0"
+       y="772.36218" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:40.48190308;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2995"
+       width="404.81882"
+       height="404.81882"
+       x="18.082506"
+       y="734.55103"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+       id="rect5255-8"
+       width="445.30087"
+       height="37.10841"
+       x="-2.1584661"
+       y="992.62311"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#ecb139;fill-opacity:1;stroke:none"
+       id="rect5296-4"
+       width="44.530048"
+       height="267.18039"
+       x="320.6846"
+       y="892.43048"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+       id="rect5235-7"
+       width="37.10841"
+       height="445.30081"
+       x="112.87772"
+       y="714.31"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:none"
+       id="rect5235"
+       width="29.686708"
+       height="445.30081"
+       x="116.58846"
+       y="714.31"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+       id="rect5235-7-9"
+       width="37.10841"
+       height="445.30081"
+       x="213.86275"
+       y="714.20575"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:none"
+       id="rect5255"
+       width="445.30087"
+       height="29.686705"
+       x="-2.1584661"
+       y="996.33411"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:none"
+       id="rect5235-3"
+       width="29.686708"
+       height="445.30081"
+       x="217.57349"
+       y="714.20575"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#ffc80e;fill-opacity:1;stroke:none"
+       id="rect5215-2"
+       width="445.30087"
+       height="51.95174"
+       x="-2.1584661"
+       y="844.18933"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#ffea26;fill-opacity:1;stroke:none"
+       id="rect5296"
+       width="37.10841"
+       height="294.23624"
+       x="324.39523"
+       y="865.37421"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#ffb00e;fill-opacity:1;stroke:none"
+       id="rect5215"
+       width="445.30087"
+       height="41.561413"
+       x="-2.1584661"
+       y="849.38458"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#b5ef92;fill-opacity:1;stroke:none"
+       id="rect5316"
+       width="63.084244"
+       height="96.481827"
+       x="149.9861"
+       y="896.14087"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#b5ef92;fill-opacity:1;stroke:none"
+       id="rect5316-9"
+       width="115.03603"
+       height="96.481827"
+       x="-2.1584661"
+       y="896.14087"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <rect
+       style="fill:#9dcde4;fill-opacity:1;stroke:none"
+       id="rect5336"
+       width="63.826427"
+       height="129.87936"
+       x="149.9861"
+       y="714.31"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="opacity:0.45714285;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5400)"
+       d="m 26.792974,23.46796 8.429667,33.063939 5.974424,-9.248082 10.148338,11.948849 7.856778,-7.774936 -11.212276,-10.475704 8.265984,-4.255754 z"
+       id="path5376-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       transform="matrix(4.1503073,0,0,4.1503063,188.33724,820.51745)"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.15030622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 295.71371,907.22979 34.98571,137.22551 24.79572,-38.3823 42.11871,49.5914 32.60805,-32.2684 -46.53442,-43.47745 34.3064,-17.66267 z"
+       id="path5376"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/martin/Git/clickthrough-maps/icon16.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <text
+       xml:space="preserve"
+       style="font-size:19.92585945000000081px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;filter:url(#filter6189)"
+       x="289.1138"
+       y="874.93909"
+       id="text6071-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6073-8"
+         x="289.1138"
+         y="874.93909">for Google+™</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.92585945px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="288.82993"
+       y="874.02704"
+       id="text6071"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6073"
+         x="288.82993"
+         y="874.02704">for Google+™</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.37333332;stroke:none"
+       id="rect6117"
+       width="456.48822"
+       height="73.533188"
+       x="-8.7366171"
+       y="770.60626" />
+    <text
+       xml:space="preserve"
+       style="font-size:43.21295166000000165px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Ubuntu Bold;filter:url(#filter6181)"
+       x="73.361954"
+       y="823.92181"
+       id="text6063-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="73.361954"
+         y="823.92181"
+         id="tspan6067-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">Dynamic Maps</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.21295166px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Ubuntu Bold"
+       x="73.372849"
+       y="822.11877"
+       id="text6063"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="73.372849"
+         y="822.11877"
+         id="tspan6067"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">Dynamic Maps</tspan></text>
+  </g>
+</svg>
