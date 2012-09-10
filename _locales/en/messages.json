@@ -1,0 +1,10 @@
+{
+  "name": {
+    "message": "Dynamic Maps for Google+™",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "description": {
+    "message": "Explore a Checkin's surroundings!",
+    "description":"The description of the application, displayed in the web store."
+  }
+}

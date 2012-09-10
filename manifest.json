@@ -1,8 +1,9 @@
 {
-  "name": "Dynamic Maps for Google+™",
-  "version": "1",
+  "name": "__MSG_name__",
+  "version": "2",
   "manifest_version": 2,
-  "description": "Making Checkin Maps on Google+ dynamic!",
+  "description": "__MSG_description__",
+  "default_locale": "en",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
