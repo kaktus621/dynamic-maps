@@ -23,11 +23,13 @@ ClickthroughHandler = function() {
   // Listen for events on static maps images.
   $('#contentPane').on('mouseover', 'img[src^="https://maps-api-ssl"]', null,
       this.onStaticMapMouseOver_.bind(this));
+  $('#contentPane').on('mouseover', 'div[style*="https://maps-api-ssl"]', null,
+      this.onStaticMapDivMouseOver_.bind(this));
 };
 
 
 /**
- * Handler that will be called when the user clicks on a static maps image.
+ * Handler that will be called when the user hovers over a static maps image.
  * @param {Object} eventData Information about the event.
  * @private
  */
@@ -36,6 +38,25 @@ ClickthroughHandler.prototype.onStaticMapMouseOver_ = function(eventData) {
   $('div', eventData.target.parentNode).css('z-index', '2');
 
   var locationData = this.extractLocationData_(eventData.target.src);
+  this.mapsFrame_.setLocation(locationData.coordinates, locationData.zoom);
+  this.mapsFrame_.render(eventData.target.parentNode);
+};
+
+
+/**
+ * Handler that will be called when the user hovers over a div with a static
+ * maps image as background (first appearance sometime in November '12).
+ * @param {Object} eventData Information about the event.
+ * @private
+ */
+ClickthroughHandler.prototype.onStaticMapDivMouseOver_ = function(eventData) {
+  // Make sure the drop shadows and place badge stay on top of the map.
+  $('div', eventData.target.parentNode).css('z-index', '2');
+  // Apart from the node itself
+  $(eventData.target).css('z-index', '0');
+
+  var locationData = this.extractLocationData_(
+      eventData.target.style.backgroundImage);
   this.mapsFrame_.setLocation(locationData.coordinates, locationData.zoom);
   this.mapsFrame_.render(eventData.target.parentNode);
 };
