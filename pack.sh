@@ -1,2 +1,2 @@
 #!/bin/sh
-zip -r extension.zip * -x "pack.sh" -x "*.sublime-*" -x "*.svg" -x "promo*" -x "screen*"
+zip -r extension.zip * -x "pack.sh" -x "*.sublime-*" -x "*.svg" -x "promo*" -x "screen*" -x "*.md"

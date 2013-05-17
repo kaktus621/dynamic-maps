@@ -7,35 +7,32 @@
       function initialize() {
         // Extract location to show from URL (ugly hack because we can't use
         // postMessage to pass messages between content script and iframe)
-        var rawParameters = window.location.hash.substring(1).split('&');
-        var parameters = {};
+        var parameters = JSON.parse(window.location.hash.substring(1));
 
-        for (var i in rawParameters) {
-          var param = rawParameters[i].split('=');
-          parameters[param[0]] = param[1];
-        }
+        var center = new google.maps.LatLng(
+            parseFloat(parameters.center.latitude),
+            parseFloat(parameters.center.longitude));
 
-        var location = new google.maps.LatLng(
-            parseFloat(parameters.latitude),
-            parseFloat(parameters.longitude));
+        var marker = new google.maps.LatLng(
+            parseFloat(parameters.markers.latitude),
+            parseFloat(parameters.markers.longitude));
 
         var options = {
           zoom: parameters.zoom ? parseInt(parameters.zoom) : 8,
-          center: location,
+          center: center,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        var map = new google.maps.Map(document.getElementById('map'), options);
 
-        // Place a marker on the center location (using the G+ maps pin)
+        google.maps.visualRefresh = !!parameters.visualRefresh;
+
+        // Create the actual Google Maps Map
+        var map = new google.maps.Map(document.getElementById('map'), options);
+        map.panBy(0, parseInt(parameters.verticalOffset));
+
+        // Place a marker on the center location
         new google.maps.Marker({
           map: map,
-          position: location,
-          icon: new google.maps.MarkerImage(
-            'https://ssl.gstatic.com/s2/oz/images/stream/location_map_pin-d5b7d4d5269c6b2b0b2c2ef921064675.png',
-            null,
-            null,
-            new google.maps.Point(8, 8)
-          ),
+          position: marker,
           flat: true
         });
       }

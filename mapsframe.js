@@ -37,15 +37,10 @@ MapsFrame.prototype.render = function(parentNode) {
 
 /**
  * Passes down the new location to the iframe.
- * @param {{latitude: number, longitude: number}} location The location that
- *    should be displayed.
- * @param {number=} opt_zoom If set, the zoom level to show. Otherwise a default
- *    value will be applied.
+ * @param {Object.<string, (Object|string)>} locationData Data for the maps
+ *    frame to use.
  */
-MapsFrame.prototype.setLocation = function(location, opt_zoom) {
-  var params = 'latitude=' + location.latitude +
-      '&longitude=' + location.longitude +
-      (opt_zoom ? ('&zoom=' + opt_zoom) : '');
-
-  $(this.element_).attr('src', chrome.extension.getURL('map.html#' + params));
+MapsFrame.prototype.initialize = function(locationData) {
+  $(this.element_).attr('src', chrome.extension.getURL('map.html#' +
+      JSON.stringify(locationData)));
 };
