@@ -65,7 +65,12 @@ ClickthroughHandler.prototype.extractLocationData_ = function(url) {
   var markers = /markers=([-\d\.]+),([-\d\.]+)/i.exec(url);
   var size = /size=(\d+)x(\d+)/i.exec(url);
   var zoom = /zoom=([\d]+)/i.exec(url);
-  var visualRefresh = /visual_refresh=(true|false)/i.exec(url);
+
+  // Regarding VisualRefresh: apparently the Google-signed static maps don't
+  // need the paramter and are still showing the new maps style by default.
+  // Thus enforcing visual refresh since July 13, as Google+ has switched to
+  // showing visual refreshed Checkin badges by default.
+  // var visualRefresh = /visual_refresh=(true|false)/i.exec(url);
 
   return {
     center: {
@@ -80,7 +85,7 @@ ClickthroughHandler.prototype.extractLocationData_ = function(url) {
       width: size[1],
       height: size[2]
     },
-    visualRefresh: (!!visualRefresh && visualRefresh[1] == 'true'),
+    visualRefresh: true,
     zoom: zoom[1]
   };
 };
